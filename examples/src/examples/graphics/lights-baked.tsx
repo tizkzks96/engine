@@ -1,4 +1,4 @@
-import * as pc from 'playcanvas/build/playcanvas.js';
+import * as pc from '../../../../';
 import Example from '../../app/example';
 
 class LightsBakedExample extends Example {

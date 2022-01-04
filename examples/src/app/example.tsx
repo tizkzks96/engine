@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import * as pc from 'playcanvas/build/playcanvas.js';
+import * as pc from '../../../';
 // @ts-ignore: library file import
 import { Observer } from '@playcanvas/observer';
 // @ts-ignore: library file import

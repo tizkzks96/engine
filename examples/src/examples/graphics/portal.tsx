@@ -1,5 +1,5 @@
 import React from 'react';
-import * as pc from 'playcanvas/build/playcanvas.js';
+import * as pc from '../../../../';
 import Example from '../../app/example';
 
 class PortalExample extends Example {

@@ -1,7 +1,5 @@
 // @ts-ignore: library file import
-import * as pc from 'playcanvas/build/playcanvas.dbg.js';
-// @ts-ignore: library file import
-import * as pcx from 'playcanvas/build/playcanvas-extras.js';
+import * as pc from '../../../../';
 import Example from '../../app/example';
 
 class MiniStatsExample extends Example {

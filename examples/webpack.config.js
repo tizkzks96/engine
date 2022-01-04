@@ -101,20 +101,12 @@ const config = {
             languages: ['javascript', 'typescript']
         }),
         new webpack.NormalModuleReplacementPlugin(
-            /^playcanvas\/build\/playcanvas\.js$/,
+            /^\.\.\/\.\.\/\.\.\/$/,
             path.resolve(__dirname, process.env.ENGINE_PATH || '../build/playcanvas.js')
         ),
         new webpack.NormalModuleReplacementPlugin(
-            /^playcanvas\/build\/playcanvas\.dbg\.js$/,
-            path.resolve(__dirname, process.env.ENGINE_DBG_PATH || '../build/playcanvas.dbg.js')
-        ),
-        new webpack.NormalModuleReplacementPlugin(
-            /^playcanvas\/build\/playcanvas\.prf\.js$/,
-            path.resolve(__dirname, process.env.ENGINE_PRF_PATH || '../build/playcanvas.prf.js')
-        ),
-        new webpack.NormalModuleReplacementPlugin(
-            /^playcanvas\/build\/playcanvas-extras\.js$/,
-            path.resolve(__dirname, process.env.EXTRAS_PATH || '../build/playcanvas-extras.js')
+            /^\.\.\/\.\.\/\.\.\/\.\.\/$/,
+            path.resolve(__dirname, process.env.ENGINE_PATH || '../build/playcanvas.js')
         ),
         new WebpackShellPlugin({
             onBuildStart: {

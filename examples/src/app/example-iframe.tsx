@@ -4,13 +4,13 @@ import ControlPanel from './control-panel';
 import Container from '@playcanvas/pcui/Container/component';
 // @ts-ignore: library file import
 import Spinner from '@playcanvas/pcui/Spinner/component';
-import * as playcanvas from 'playcanvas/build/playcanvas.js';
+import * as playcanvas from '../../../';
 // @ts-ignore: library file import
-import * as playcanvasDebug from 'playcanvas/build/playcanvas.dbg.js';
+import * as playcanvasDebug from '../../../build/playcanvas.dbg.js';
 // @ts-ignore: library file import
-import * as playcanvasPerformance from 'playcanvas/build/playcanvas.prf.js';
+import * as playcanvasPerformance from '../../../build/playcanvas.prf.js';
 // @ts-ignore: library file import
-import * as pcx from 'playcanvas/build/playcanvas-extras.js';
+import * as pcx from '../../../build/playcanvas-extras.js';
 // @ts-ignore: library file import
 import * as Babel from '@babel/standalone';
 // @ts-ignore: library file import
